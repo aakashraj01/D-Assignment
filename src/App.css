@@ -35,16 +35,18 @@
 .secondary-btn {
   background-color: var(--white-color);
   color: var(--primary-color);
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 
 .link {
   background-color: transparent;
   color: var(--white-color);
+  font-weight: 400;
 }
 
-.link:hover {
-  text-decoration: underline;
-}
 
 .divider {
   border: none;

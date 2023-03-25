@@ -1,0 +1,13 @@
+.header {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: var(--primary-color);
+  min-height: 20rem;
+}
+
+.header-elem {
+  display: flex;
+  justify-content: space-between;
+}

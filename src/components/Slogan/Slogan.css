@@ -1,0 +1,21 @@
+.slogan {
+  display: flex;
+  align-items: center;
+  width: 47%;
+  min-height: 3.75rem;
+  padding: 0.5rem 1rem;
+  background-color: var(--medium-grey);
+  border-radius: 4px;
+  cursor: pointer;
+  position: relative;
+}
+
+.slogan:hover::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  left: -8.5rem;
+  background-color: var(--light-font);
+  border-radius: 5px;
+  color: var(--white-color);
+  padding: 5px 10px;
+}

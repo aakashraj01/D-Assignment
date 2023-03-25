@@ -1,0 +1,10 @@
+.products-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.product {
+  max-width: 22rem;
+  cursor: pointer;
+}
